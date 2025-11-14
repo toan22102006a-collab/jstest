@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MY JVS</title>
+    <link rel="stylesheet" href="test.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my JavaScript</h1>
+    </header>
+    <hr />
+    <main>
+      <div id="image">mouse to image below to display here</div>
+      <div class="preview-container">
+        <img
+          src="anh1.jpg"
+          alt="anh 1"
+          class="preview"
+          onmouseover="upDate(this)"
+          onmouseout="undo()"
+        />
+        <img
+          src="anh2.jpg"
+          alt="anh 2"
+          class="preview"
+          onmouseover="upDate(this)"
+          onmouseout="undo()"
+        />
+      </div>
+    </main>
+    <hr />
+    <footer>
+      <p>Toan dep chai hahaha</p>
+    </footer>
+  </body>
+</html>
