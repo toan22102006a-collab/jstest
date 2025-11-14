@@ -38,3 +38,8 @@ body {
   transform: scale(1.1);
   border-color: #333;
 }
+
+.preview:focus {
+  outline: 3px solid #0077cc;
+  transform: scale(1.1);
+}
